@@ -1,0 +1,112 @@
+
+body {
+	letter-spacing: 0.03em;
+	font-family: Times;
+	margin: 0;
+}
+
+.top-navigation {
+	background-color: #fff;
+	position: fixed;
+	width: 100%;
+	z-index: 10;
+	border-bottom: 1px solid #DDD;
+	border-top: 2px solid #fff;
+	
+}
+
+.top-navigation > .content {
+	
+	margin: 0 auto;
+	width: 970px;
+	height: 70px;
+	
+	
+}
+.top-navigation .logo {
+	/*margins: 10px 20px 15px 10px;*/
+	height: 4.375rem;
+
+}
+.logo{
+	background-image: url("IMG/karma-logo.svg");
+	width: 26px;
+}
+.top-navigation .links {
+	float: right;
+	font-family: "Roboto", sans-serif;
+	color: #838994;
+	font-size: 1.04rem;
+	margin-top: 1.7rem;
+}
+.top-navigation .links li {
+	display: inline-block;
+	margin-left: 15px;
+	font-size: 16px;
+	color: #838994;
+	}
+
+.top-navigation .content{
+	padding: 0 0.938rem;
+	margin: 0 auto;
+	min-width: 37.5rem;
+}
+
+.top-navigation .links .calm {
+	color: #4c5058;
+	font-weight: 600;
+}
+.top-navigation .links li:hover {
+	background-color: #fff;
+	color: #958282;
+	cursor: pointer;
+}
+.introduction {
+	background-image: url('../img/first-background.JPEG');
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 45.938rem;
+	overflow: auto;
+}
+.introduction .content h1,
+.introduction .content h3 {
+	color: white;
+	text-align: center;
+	font-weight: 300;
+	color: #4c5058;
+}
+
+.introduction h1 {
+	margin-top: 17.25rem;
+	font-size: 3.125rem;
+}
+
+.introduction h3 {
+	margin-top: 1.25rem;
+	font-size: 1.563rem;
+}
+.introduction .button {
+	text-align: center;
+	margin-top: 50px;
+
+	
+}
+
+button {
+	border-radius: 4px;
+	font-size: 1.100rem;
+	background-color: #4c5058;
+	color: #9c8888;
+	padding: 1rem 1.5rem;
+	width: 10rem;
+	display: block;
+	margin: 0 auto;
+	border-style: none;
+	text-shadow: none;
+}
+
+button:hover{
+	 background-color: #3B0B0B;
+	 cursor: pointer;
+}
