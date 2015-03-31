@@ -74,7 +74,7 @@ body {
 	color: white;
 	text-align: center;
 	font-weight: 300;
-	color: #4c5058;
+	color: #fff;
 }
 
 .introduction h1 {
@@ -96,8 +96,8 @@ body {
 button {
 	border-radius: 4px;
 	font-size: 1.100rem;
-	background-color: #4c5058;
-	color: #9c8888;
+	background-color: #E65824;
+	color: #fff;
 	padding: 1rem 1.5rem;
 	width: 10rem;
 	display: block;
@@ -109,4 +109,80 @@ button {
 button:hover{
 	 background-color: #3B0B0B;
 	 cursor: pointer;
+}
+
+/*start of middle section*/
+.middlesection{
+	width:1300px;
+	margin: 0 auto;
+}
+
+.icons li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 80px;
+	text-align: center;
+
+}
+.needs{
+	text-align: center;
+	font-size: 3em;
+	color: #4c5058;
+	font-weight: 100;
+	margin-top: 150px;
+}
+
+li p{
+	font-size: 1.5em;
+}
+	/*start of footer*/
+.join{
+	text-align: center;
+	font-size: 1.1em;
+	margin: 0 auto;
+}
+
+.social-content{
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 150px;
+}
+
+.social-content hr{
+	background-color: lightgray;
+	width: 1150px;
+	height: 0.3px;
+	margin-top: -47px;
+	margin-bottom: 20px;
+}
+
+.social-content .social-media li{
+	border-radius: 1rem;
+    width: 2.5rem;
+    height: 2.rem;
+    display: inline-block;
+    margin: 1.25rem 5px;
+    border: 1.5px solid #eaebec;
+    padding: 0.625rem 0;
+    text-align: center;
+}
+
+.social-content .social-media li:hover{
+	cursor: pointer;
+}
+
+.social-content .twitter{
+	color: #55acee;
+}
+.social-content .facebook{
+	color:  #4c66a4;
+}
+.social-content .intagram{
+	color: #3f729b
+}
+
+.copyright{
+	text-align: center;
+	color:  #838994;
+	font-weight: 300;
 }
