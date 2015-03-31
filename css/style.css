@@ -62,7 +62,7 @@ body {
 	cursor: pointer;
 }
 .introduction {
-	background-image: url('../img/first-background.JPEG');
+	background-image: url('../IMG/first-background.JPEG');
 	background-position: center bottom;
 	background-repeat: no-repeat;
 	background-size: cover;
