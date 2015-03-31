@@ -156,8 +156,8 @@ li p{
 }
 
 .social-content .social-media li{
-	border-radius: 1rem;
-    width: 2.5rem;
+	border-radius: 2rem;
+    width: 3rem;
     height: 2rem;
     display: inline-block;
     margin: 1.25rem 5px;
@@ -180,8 +180,12 @@ li p{
 	color: #3f729b;
 }
 
-.copyright{
+.social-content .social-media{
+	list-style-type: disc;
+}
+
+.social-content .copyright{
 	text-align: center;
 	color:  #838994;
-	font-weight: 300;
+	font-weight: 100;
 }
